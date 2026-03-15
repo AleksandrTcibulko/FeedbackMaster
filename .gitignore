@@ -1,0 +1,86 @@
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## User settings
+xcuserdata/
+*.xcuserstate
+*.xcuserdatad
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcbkptlist
+*.xccheckout
+*.xcscmblueprint
+profile
+*.moved-aside
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## Build generated
+build/
+DerivedData/
+*.generated.swift
+
+## CocoaPods
+Pods/
+Podfile.lock
+!Podfile
+
+## Carthage
+Carthage/Build
+
+## Swift Package Manager
+.build/
+Packages/
+*.resolved
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+.swiftpm/xcode/xcuserdata/
+
+## Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+## Bundler
+.bundle
+
+## SwiftLint
+.swiftlint.yml
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+## macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+## Xcode 10+ generated
+xcshareddata/
+!xcshareddata/WorkspaceSettings.xcsettings
+
+## Xcode 12+
+*.xcodeproj/project.xcworkspace
+*.xcodeproj/xcshareddata
+*.xcworkspace/xcshareddata
+*.xcworkspace/xcuserdata
+*.xcworkspace/xcshareddata
